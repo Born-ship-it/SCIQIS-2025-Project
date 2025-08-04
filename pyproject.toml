@@ -1,0 +1,20 @@
+[project]
+name = "sciqis"
+version = "0.1.0"
+description = "Base environment for SCIQIS tutorials"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=6.30.0",
+    "ipython>=9.4.0",
+    "jupyterlab>=4.4.5",
+    "jupyterlab-git>=0.51.2",
+    "line-profiler>=5.0.0",
+    "matplotlib>=3.10.5",
+    "numpy>=2.3.2",
+    "pandas>=2.3.1",
+    "qutip>=5.2.0",
+    "qutip-qip>=0.4.1",
+    "scipy>=1.16.1",
+    "tqdm>=4.67.1",
+]
