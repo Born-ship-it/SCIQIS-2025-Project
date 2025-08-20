@@ -1,20 +1,35 @@
 [project]
-name = "sciqis_project"
+name = "sciqis_intro"
 version = "0.1.0"
 description = "Base environment for SCIQIS tutorials"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
+    "h5py>=3.14.0",
     "ipykernel>=6.30.0",
-    "ipython>=9.4.0",
+    "ipympl>=0.9.7",
+    "ipynb>=0.5.1",
+    "ipython<=9.3.0",
+    "jupyter>=1.1.1",
     "jupyterlab>=4.4.5",
     "jupyterlab-git>=0.51.2",
     "line-profiler>=5.0.0",
     "matplotlib>=3.10.5",
-    "numpy>=2.3.2",
+    "notebook>=7.4.4",
+    "numba>=0.61.2",
+    "numexpr>=2.11.0",
+    "numpy>=2.2.6",
     "pandas>=2.3.1",
     "qutip>=5.2.0",
     "qutip-qip>=0.4.1",
-    "scipy>=1.16.1",
+    "scipy>=1.15.3",
+    "seaborn>=0.13.2",
+    "sympy>=1.14.0",
     "tqdm>=4.67.1",
+    "traitlets>=5.4.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.30.0",
 ]
