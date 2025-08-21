@@ -2,6 +2,18 @@
 This Github project is a part of the DTU course:
 10387 Scientific computing in quantum information science (link: https://kurser.dtu.dk/course/10387)
 
+Isntall packages:
+'''console
+pip install git+https://github.com/Born-ship-it/SCIQIS-2025-Project.git
+'''
+
+Clone repository:
+''' console
+git clone https://github.com/Born-ship-it/SCIQIS-2025-Project.git
+cd SCIQIS-2025-Project
+pip install .
+'''
+
 This project, Cavity QED, is a topic covered doing the course, which I drove deeper into. It has direct relation and application to quantum information science. Done by adapting and creating my own code in ipython notebooks.
 
 ## What to expect 
