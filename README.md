@@ -2,7 +2,7 @@
 This Github project is a part of the DTU course:
 10387 Scientific computing in quantum information science (link: https://kurser.dtu.dk/course/10387)
 
-Isntall packages:
+Install packages:
 <pre><code>
 pip install git+https://github.com/Born-ship-it/SCIQIS-2025-Project.git
 </code></pre>
