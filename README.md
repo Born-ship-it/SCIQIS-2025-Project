@@ -14,6 +14,13 @@ cd SCIQIS-2025-Project
 pip install .
 </code></pre>
 
+Install dependencies inside your environment with:
+<pre><code>
+run uv sync
+</code></pre>
+utliizing the .toml file from the repo.
+
+
 This project, Cavity QED, is a topic covered doing the course, which I drove deeper into. It has direct relation and application to quantum information science. Done by adapting and writing code in ipython notebooks.
 
 ## Computational Quantum Optomechanics
@@ -34,8 +41,8 @@ Developed a comprehensive numerical framework using QuTiP to simulate and analyz
 - Developed automated data processing pipelines for quantum property extraction
 
 **Outputs:**
-- Atom-Cavity.ipynb: Quantum optics with two-level systems
-- Cavity-Mirror.ipynb: Radiation pressure effects in cavit
+- Atom-Cavity.ipynb: a single two-level atom interacting with a electromagnetic cavity
+- Cavity-Mirror.ipynb: a moving mirror interacting with a electromagnetic cavity
 
 ## Course relevant/reflecting stuff
 
@@ -47,4 +54,4 @@ Got introduced to Github, using basic version control with git and managing a sm
 
 Adapted python modules with to import modules from ipython notebooks and python files.
 
-
+The course encouraged using AI to speed up programming, etc., on the condition I could understand what my code does.
