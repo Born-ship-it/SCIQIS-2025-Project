@@ -2,6 +2,8 @@
 This Github project is a part of the DTU course:
 10387 Scientific computing in quantum information science (link: https://kurser.dtu.dk/course/10387)
 
+This project is part of the exam. Cavity QED was a topic covered doing the course, which I drove deeper into. I choose this as my interest alings wiht its direct relation and application to quantum information science. Done by adapting and writing code in python/ipython notebooks.
+
 Install packages:
 <pre><code>
 pip install git+https://github.com/Born-ship-it/SCIQIS-2025-Project.git
@@ -20,8 +22,6 @@ run uv sync
 </code></pre>
 utliizing the .toml file from the repo.
 
-
-This project, Cavity QED, is a topic covered doing the course, which I drove deeper into. It has direct relation and application to quantum information science. Done by adapting and writing code in ipython notebooks.
 
 ## Computational Quantum Optomechanics
 
