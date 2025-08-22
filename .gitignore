@@ -1,3 +1,5 @@
 # Notebook checkpoints 
 .ipynb_checkpoints
-
+# Python cache files
+Fock Space Truncation/cache_of_results/result_qed_bd0981bee21c0beacd209376cb64f1fb_meta.pkl
+Fock Space Truncation/cache_of_results/result_qed_bd0981bee21c0beacd209376cb64f1fb.pkl
