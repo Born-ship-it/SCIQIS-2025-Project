@@ -87,7 +87,7 @@ def compute_entropy(results):
     return entropy_matrix
 
 def plot_pos_entropy(Ns, Ms, entropy_matrix):
-    fig, ax = plt.subplots(1, 1, figsize=(6, 6))
+    fig, ax = plt.subplots(1, 1, figsize=(6, 5))
     
     contour1 = ax.contourf(Ns, Ms, entropy_matrix, levels=[-0.5, 0.5, 1.5], cmap='RdBu_r')
     ax.set_title("Positive Entropy Check")
